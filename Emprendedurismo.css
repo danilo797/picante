@@ -1,0 +1,362 @@
+  
+
+body {
+            background-color: black;
+            color: white;
+            
+        }
+       
+        p {
+            color: white;
+        }
+        .a1 { 
+             font-style: italic;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 6px 6px 10px rgba(0, 0, 0, 0.3);
+            font-size: 30px;
+            color: white;
+        }
+        .c {
+            font-size: 32px;
+            position: absolute;
+            left: 50rem;
+            margin-top: -5rem;
+        }
+        #b {
+            position: absolute;
+            left: 18rem;
+            color: white;
+            width: 15rem;
+            margin-top: 1rem;
+
+        }
+        #b3{
+            font-size:25px;
+             font-style: italic;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 6px 6px 10px rgba(0, 0, 0, 0.3);
+        }
+        .b {
+            font-size: 50px;
+             font-style: italic;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 6px 6px 10px rgba(0, 0, 0, 0.3);
+        }
+        button {
+            text-decoration: none;
+            background-color: red;
+            border-style: solid;
+            border-radius: 10%;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            border-radius: 20px;
+        }
+        #linea {
+            margin-top: 28rem;
+            background-color: white;
+            width: 100%;
+            height: 6px;
+        }
+        header {
+            position: absolute;
+            left:50px;
+           
+        }
+        #d{
+    position:absolute;
+    left:15rem;
+    margin-top:-23rem;
+}
+ #e{
+        color:white;
+        position:absolute;
+        margin-top:1rem;
+        left:40%;
+         font-style: italic;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 6px 6px 10px rgba(0, 0, 0, 0.3);
+    }
+      #e1{
+        position:absolute;
+        border-style:solid;
+        border-color:white;
+        width:18rem;
+        margin-top:12rem;
+        height:15rem;
+        left:10%;
+        background-size: 100% 100%;
+        animation: slider 10s linear infinite; 
+    }
+    @keyframes slider{
+        0%{background-image:url(gomitas.jfif);}
+         30%{background-image:url(gomitas2.jfif);}
+          60%{background-image:url(gomitas3.jfif);}
+           100%{background-image:url(file:///C:/Users/MINEDUCYT/Desktop/visual/gomitas4.webp);}
+    }
+    #e2{
+        position:absolute;
+        border-style:solid;
+        border-color:white;
+        width:18rem;
+        margin-top:12rem;
+        height:15rem;
+        left:30rem;
+        background-size: 100% 100%;
+        animation: danilo 10s linear infinite; 
+    }
+    @keyframes danilo{
+        0%{background-image:url(gomitas5.jpg);}
+         30%{background-image:url(gomitas6.jpg);}
+          60%{background-image:url(gomitas7.jpg);}
+           100%{background-image:url(gomitas8.jpg);}
+    }
+
+     #e3{
+        position:absolute;
+        border-style:solid;
+        border-color:white;
+        width:18rem;
+        margin-top:12rem;
+        height:15rem;
+        left:51rem;
+        background-size: 100% 100%;
+        animation: hola 10s linear infinite; 
+    }
+    @keyframes hola{
+        0%{background-image:url(gomitas3.jfif);}
+         30%{background-image:url(gomitas7.jpg);}
+          60%{background-image:url(file:///C:/Users/MINEDUCYT/Desktop/visual/gomitas4.webp);}
+           100%{background-image:url(gomitas5.jpg);}
+    }
+
+
+
+     .hidden-checkbox {
+    display: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.hidden-checkbox:checked + .button + #conocenosContent {
+    display: block;
+}
+
+#conocenosContent {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+#k{
+    font-size:30px;
+    left:40px;
+    
+    
+}
+
+#k1{
+    font-size:35px;
+    position: absolute;
+    margin-top:22rem;
+    right:40px;
+}
+#linea1 {
+            margin-top:34rem;
+            background-color: white;
+            width: 100%;
+            height: 6px;
+        }
+        #e4{
+        position:absolute;
+        border-style:solid;
+        border-color:white;
+        width:18rem;
+        margin-top:12rem;
+        height:15rem;
+        left:10%;
+         background-size: 100% 100%;
+        animation: f1 10s linear infinite; 
+    }
+    @keyframes f1{
+        0%{background-image:url(fruta1.jpg);}
+         30%{background-image:url(fruta2.jpg);}
+          60%{background-image:url(fruta4.jfif);}
+           100%{background-image:url(fruta5.jfif);}}
+    #e5{
+        position:absolute;
+        border-style:solid;
+        border-color:white;
+        width:18rem;
+        margin-top:12rem;
+        height:15rem;
+        left:30rem;
+         background-size: 100% 100%;
+        animation: f2 10s linear infinite; 
+    }
+    @keyframes f2{
+        0%{background-image:url(fruta4.jfif);}
+         30%{background-image:url(fruta1.jpg);}
+          60%{background-image:url(fruta5.jfif);}
+           100%{background-image:url(fruta2.jpg);}
+    }
+     #e6{
+        position:absolute;
+        border-style:solid;
+        border-color:white;
+        width:18rem;
+        margin-top:12rem;
+        height:15rem;
+        left:51rem;
+     background-size: 100% 100%;
+        animation: f3 10s linear infinite; 
+    }
+    @keyframes f3{
+        0%{background-image:url(fruta2.jpg);}
+         30%{background-image:url(fruta5.jfif);}
+          60%{background-image:url(fruta1.jpg);}
+           100%{background-image:url(fruta4.jfif);}
+    }
+   .product { display: none; }
+        .active { display: block; }
+
+         .container {
+            max-width:50%;
+            margin: auto;
+            padding: 10px;
+            
+            background-color:black;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%; 
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color:red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+             font-style: italic;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 6px 6px 10px rgba(0, 0, 0, 0.3);
+        }
+        button:hover {
+            background-color:#8b0000;
+        }
+h2{
+    font-size:30px;
+}
+
+#fire-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none; /* Para que no interfiera con otros elementos */
+    z-index: 9999; /* Asegúrate de que esté encima de otros elementos */
+}
+
+.fireball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px yellow;
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: translateY(-100vh);
+    }
+}
+#go{
+     font-style: italic;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 6px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.image-links {
+  display: flex;
+  gap: 10px; /* Espacio entre las imágenes */
+}
+
+.image-links a img {
+  /* Ajusta el tamaño de las imágenes */
+  height: auto;
+}
+#wh{
+    margin-top:2px;
+}
+#j{
+    background-color:black;
+    height:20px;
+    margin-top:3px;
+    font-size:25px;
+}
+.linea2{
+    margin-top:1rem;
+    background-color: white;
+  width: 100%;
+height: 6px;
+
+
+}
+.quien{
+color: white;
+ font-style: italic;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), 6px 6px 10px rgba(0, 0, 0, 0.3);
+}
+#quien3{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5);
+    font-size:25px;
+
+
+
+}
+input[type="checkbox"] {
+            display: none;
+        }
+
+        #ege {
+            display: inline-block;
+            color: white;
+            padding:10px 10px;
+            cursor: pointer;
+        }
+
+        #miImagen {
+            display: none;
+            margin-top:8px;
+            position:absolute;
+            left:0%;
+        }
+
+        input[type="checkbox"]:checked ~ #miImagen {
+            display: block;
+        }
+

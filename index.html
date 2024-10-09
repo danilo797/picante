@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="Emprendedurismo.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spice Explotion</title>   
+</head>
+<body>
+<div id="mainContent">
+    <h1 class="a1" id="contenido">BIENVENIDOS <br> SPICE EXPLOTION</h1>
+    <div class="c">  
+
+  <input type="checkbox" id="toggle">
+<label id="ege" for="toggle">INSTAGRAM </label>
+
+<div id="miImagen">
+    <a href="https://www.instagram.com/spice.explotion?igsh=emlvcGw4ZWxwNW92">
+        <img src="ins.png" width="70px" height="70px" alt="Imagen de Ejemplo">
+    </a>
+</div>
+    </div>
+     <div id="fire-container"></div>
+    <div id="b">
+        <h1 class="b">Gomitas</h1>
+        <p id="b3">Las mejores gomitas picantes son demasiado deliciosas. El sabor intenso del picante en lo dulce es demasiado satisfactorio.</p>
+        <button id="b1"><a href="#go">Personalizar</a></button>
+        <img id="d" src="lo.png" width="380px" height="400px">
+    </div>
+    
+    <div id="linea"></div>
+    <div id="e">
+        <h1 id="q">PRODUCTOS</h1>
+    <button onclick="mostrarGomitas()">Mostrar Gomitas</button>
+    <button onclick="mostrarFruta()">Mostrar Fruta</button>
+    </div>
+    <div class="product" id="e1"></div>
+    <div class="product" id="e2"></div>
+    <div class="product" id="e3"></div>
+    <div class="product" id="e4"></div>
+    <div class="product" id="e5"></div>
+    <div class="product" id="e6"></div>
+    <div id="linea1"></div>
+</div>
+<center>
+<div class="container">
+        <center>
+        <h2 id="go">Gomitas Picantes Personalizadas</h2>
+        </center>
+        <form>
+            <div class="form-group">
+                <label for="nivelPicante">Nivel de Picante:</label>
+                <select id="nivelPicante" name="nivelPicante">
+                    <option value="suave">🌶️ Suave</option>
+                    <option value="medio">🌶️🌶️ Medio</option>
+                    <option value="fuerte">🌶️🌶️🌶️ Fuerte</option>
+                    <option value="extremo">🌶️🌶️🌶️🌶️ Extremo</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="sabor">Sabor:</label>
+                <select id="sabor" name="sabor">
+                    <option value="fresa">Fresa</option>
+                    <option value="mango">Mango</option>
+                    <option value="limon">Limón</option>
+                    <option value="sandia">Sandía</option>
+                    <option value="mezcla">Mezcla de Sabores</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="forma">Forma de las Gomitas:</label>
+                <select id="forma" name="forma">
+                    <option value="ositos">Ositos</option>
+                    <option value="anillos">Anillos</option>
+                    <option value="cubos">Cubos</option>
+                    <option value="corazones">Corazones</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje Personalizado:</label>
+                <textarea id="mensaje" name="mensaje" maxlength="50" placeholder="Añade un mensaje especial en el empaque (hasta 50 caracteres)"></textarea>
+            </div>
+            <button>Personalizar</button>
+        </form>
+    </div>
+    <div class="linea2">
+        <p></p>
+    </div>
+    <div class="quien">
+        <h1 id="quien2">¿QUINES SOMOS?</h1>
+    </div>
+    <p class="quien3" id="quien3">
+            En SPICE EXPLOTION somos un emprendimiento formado por chicos con el deseo de emprender y de darte los mejores Snack con una variedad de sabores en nuestro emprendimiento nos aseguramos que el cliente siempre tenga sus mejores momentos con nuestros productos.
+        </p>
+    
+   
+</body>
+</html>
+
+<script>
+
+     function mostrarGomitas() {
+           //document.getElementById es el que seleciona donde se plicara el efecto
+            document.getElementById('e1').style.display = 'block';
+            //style.display es el encargado de desplegar segun el boton en que agamos click
+            document.getElementById('e2').style.display = 'block';
+            document.getElementById('e3').style.display = 'block';
+            document.getElementById('e4').style.display = 'none';
+            document.getElementById('e5').style.display = 'none';
+            document.getElementById('e6').style.display = 'none';
+        }
+        function mostrarFruta() {
+            document.getElementById('e1').style.display = 'none';
+            document.getElementById('e2').style.display = 'none';
+            document.getElementById('e3').style.display = 'none';
+            document.getElementById('e4').style.display = 'block';
+            document.getElementById('e5').style.display = 'block';
+            document.getElementById('e6').style.display = 'block';
+        }
+ document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('fire-container');
+
+    for (let i = 0; i < 12; i++) {
+        const fireball = document.createElement('div');
+        fireball.classList.add('fireball');
+        fireball.style.left = `${Math.random() * 100}vw`;
+        fireball.style.animationDuration = `${Math.random() * 3 + 3}s`;
+        container.appendChild(fireball);  }
+});
+
+ 
+</script>
+
+
